@@ -1,0 +1,1 @@
+export const GLOBAL_SEARCH_EVENT = "global_search_event"

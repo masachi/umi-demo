@@ -1,0 +1,45 @@
+.demo-list-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+
+  .search-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    padding: 0px 10px;
+
+    border: 2px solid #cccccc;
+
+    input {
+      margin-left: 5px;
+      width: 80%;
+    }
+
+    .search-btn {
+      max-width: 20%;
+      color: #1b72ff;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+
+  .items-container {
+    height: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .item-container {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
